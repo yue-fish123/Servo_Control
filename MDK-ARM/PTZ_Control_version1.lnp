@@ -1,0 +1,27 @@
+--cpu Cortex-M3
+"..\..\ptz_control_version1\mdk-arm\startup_stm32f103xb.o"
+"..\..\ptz_control_version1\mdk-arm\uart.o"
+"..\..\ptz_control_version1\mdk-arm\main.o"
+"..\..\ptz_control_version1\mdk-arm\stm32f1xx_it.o"
+"..\..\ptz_control_version1\mdk-arm\stm32f1xx_hal_msp.o"
+"..\..\ptz_control_version1\mdk-arm\stm32f1xx_hal_gpio_ex.o"
+"..\..\ptz_control_version1\mdk-arm\stm32f1xx_hal_can.o"
+"..\..\ptz_control_version1\mdk-arm\stm32f1xx_hal.o"
+"..\..\ptz_control_version1\mdk-arm\stm32f1xx_hal_rcc.o"
+"..\..\ptz_control_version1\mdk-arm\stm32f1xx_hal_rcc_ex.o"
+"..\..\ptz_control_version1\mdk-arm\stm32f1xx_hal_gpio.o"
+"..\..\ptz_control_version1\mdk-arm\stm32f1xx_hal_dma.o"
+"..\..\ptz_control_version1\mdk-arm\stm32f1xx_hal_cortex.o"
+"..\..\ptz_control_version1\mdk-arm\stm32f1xx_hal_pwr.o"
+"..\..\ptz_control_version1\mdk-arm\stm32f1xx_hal_flash.o"
+"..\..\ptz_control_version1\mdk-arm\stm32f1xx_hal_flash_ex.o"
+"..\..\ptz_control_version1\mdk-arm\stm32f1xx_hal_exti.o"
+"..\..\ptz_control_version1\mdk-arm\stm32f1xx_hal_i2c.o"
+"..\..\ptz_control_version1\mdk-arm\stm32f1xx_hal_tim.o"
+"..\..\ptz_control_version1\mdk-arm\stm32f1xx_hal_tim_ex.o"
+"..\..\ptz_control_version1\mdk-arm\stm32f1xx_hal_uart.o"
+"..\..\ptz_control_version1\mdk-arm\system_stm32f1xx.o"
+--strict --scatter "..\..\PTZ_Control_version1\MDK-ARM\PTZ_Control_version1.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "PTZ_Control_version1.map" -o ..\..\PTZ_Control_version1\MDK-ARM\PTZ_Control_version1.axf
