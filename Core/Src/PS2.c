@@ -249,7 +249,7 @@ void PS2_SetInit(void)
 
 // 辅助函数：数值映射（0~255→0~270）
 //	用于控制舵机运动
-uint8_t map(uint16_t x, uint16_t in_min, uint16_t in_max, uint16_t out_min, uint16_t out_max) {
-    return (x - in_min) * (out_max - out_min) / (in_max - in_min) + out_min;
+int16_t map(int32_t x, int32_t in_min, int32_t in_max, int32_t out_min, int32_t out_max) {
+    if (in_max == in_min) return (int16_t)out_min;
+    return (int16_t)((x - in_min) * (out_max - out_min) / (in_max - in_min) + out_min);
 }
-

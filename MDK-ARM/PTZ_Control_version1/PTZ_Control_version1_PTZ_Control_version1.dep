@@ -32,13 +32,13 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6919BFED)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6919BFED)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6919BFED)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6919BFED)
-I (../Core/Inc/Servo.h)(0x6919BFED)
+I (../Core/Inc/Servo.h)(0x69203E38)
 F (..\Core\Src\data_processing.c)(0x6919BFED)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Src -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Core/Inc-I.\RTE\_PTZ_Control_version1-I"D:\software\keil5 MDK\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include"-I"D:\software\keil5 MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include"-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o ptz_control_version1\data_processing.o --omf_browse ptz_control_version1\data_processing.crf --depend ptz_control_version1\data_processing.d)
 I (D:\software\keil5 MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
 I (D:\software\keil5 MDK\ARM\ARMCC\include\string.h)(0x588B8344)
 I (D:\software\keil5 MDK\ARM\ARMCC\include\stdio.h)(0x588B8344)
 F (..\Core\Inc\data_processing.h)(0x6919BFED)()
-F (..\Core\Src\Servo.c)(0x6919BFED)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Src -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Core/Inc-I.\RTE\_PTZ_Control_version1-I"D:\software\keil5 MDK\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include"-I"D:\software\keil5 MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include"-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o ptz_control_version1\servo.o --omf_browse ptz_control_version1\servo.crf --depend ptz_control_version1\servo.d)
+F (..\Core\Src\Servo.c)(0x69203E10)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Src -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Core/Inc-I.\RTE\_PTZ_Control_version1-I"D:\software\keil5 MDK\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include"-I"D:\software\keil5 MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include"-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o ptz_control_version1\servo.o --omf_browse ptz_control_version1\servo.crf --depend ptz_control_version1\servo.d)
 I (../Core/Inc/main.h)(0x6919BFED)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6919BFED)
 I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6919BFED)
@@ -70,8 +70,9 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6919BFED)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6919BFED)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6919BFED)
 I (../Core/Inc/Control.h)(0x6919BFED)
-F (..\Core\Inc\Servo.h)(0x6919BFED)()
-F (..\Core\Src\pca9685.c)(0x6919BFED)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Src -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Core/Inc-I.\RTE\_PTZ_Control_version1-I"D:\software\keil5 MDK\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include"-I"D:\software\keil5 MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include"-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o ptz_control_version1\pca9685.o --omf_browse ptz_control_version1\pca9685.crf --depend ptz_control_version1\pca9685.d)
+I (../Core/Inc/pca9685.h)(0x6919BFED)
+F (..\Core\Inc\Servo.h)(0x69203E38)()
+F (..\Core\Src\pca9685.c)(0x69202603)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Src -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Core/Inc-I.\RTE\_PTZ_Control_version1-I"D:\software\keil5 MDK\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include"-I"D:\software\keil5 MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include"-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o ptz_control_version1\pca9685.o --omf_browse ptz_control_version1\pca9685.crf --depend ptz_control_version1\pca9685.d)
 I (../Core/Inc/pca9685.h)(0x6919BFED)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6919BFED)
 I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6919BFED)
@@ -106,8 +107,8 @@ I (D:\software\keil5 MDK\ARM\ARMCC\include\math.h)(0x588B8344)
 I (../Core/Inc/i2c.h)(0x6919BFED)
 I (../Core/Inc/main.h)(0x6919BFED)
 F (..\Core\Inc\pca9685.h)(0x6919BFED)()
-F (..\Core\Src\PS2.c)(0x691F2A4A)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Src -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Core/Inc-I.\RTE\_PTZ_Control_version1-I"D:\software\keil5 MDK\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include"-I"D:\software\keil5 MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include"-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o ptz_control_version1\ps2.o --omf_browse ptz_control_version1\ps2.crf --depend ptz_control_version1\ps2.d)
-I (../Core/Inc/PS2.h)(0x691F2A4A)
+F (..\Core\Src\PS2.c)(0x69203E10)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Src -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Core/Inc-I.\RTE\_PTZ_Control_version1-I"D:\software\keil5 MDK\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include"-I"D:\software\keil5 MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include"-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o ptz_control_version1\ps2.o --omf_browse ptz_control_version1\ps2.crf --depend ptz_control_version1\ps2.d)
+I (../Core/Inc/PS2.h)(0x6920262A)
 I (D:\software\keil5 MDK\ARM\ARMCC\include\stdio.h)(0x588B8344)
 I (D:\software\keil5 MDK\ARM\ARMCC\include\stdlib.h)(0x588B8344)
 I (../Core/Inc/main.h)(0x6919BFED)
@@ -141,7 +142,7 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6919BFED)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6919BFED)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6919BFED)
 I (../Core/Inc/gpio.h)(0x6919BFED)
-F (..\Core\Inc\PS2.h)(0x691F2A4A)()
+F (..\Core\Inc\PS2.h)(0x6920262A)()
 F (..\Core\Src\beep.c)(0x6919BFED)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Src -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Core/Inc-I.\RTE\_PTZ_Control_version1-I"D:\software\keil5 MDK\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include"-I"D:\software\keil5 MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include"-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o ptz_control_version1\beep.o --omf_browse ptz_control_version1\beep.crf --depend ptz_control_version1\beep.d)
 I (../Core/Inc/beep.h)(0x6919BFED)
 I (../Core/Inc/main.h)(0x6919BFED)
@@ -175,7 +176,7 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6919BFED)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6919BFED)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6919BFED)
 F (..\Core\Inc\beep.h)(0x6919BFED)()
-F (../Core/Src/main.c)(0x691F2CAC)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Src -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Core/Inc-I.\RTE\_PTZ_Control_version1-I"D:\software\keil5 MDK\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include"-I"D:\software\keil5 MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include"-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o ptz_control_version1\main.o --omf_browse ptz_control_version1\main.crf --depend ptz_control_version1\main.d)
+F (../Core/Src/main.c)(0x69203EFA)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Src -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Core/Inc-I.\RTE\_PTZ_Control_version1-I"D:\software\keil5 MDK\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include"-I"D:\software\keil5 MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include"-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o ptz_control_version1\main.o --omf_browse ptz_control_version1\main.crf --depend ptz_control_version1\main.d)
 I (../Core/Inc/main.h)(0x6919BFED)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6919BFED)
 I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6919BFED)
@@ -213,13 +214,13 @@ I (../Core/Inc/tim.h)(0x6919BFED)
 I (../Core/Inc/usart.h)(0x6919BFED)
 I (../Core/Inc/gpio.h)(0x6919BFED)
 I (../Core/Inc/Control.h)(0x6919BFED)
-I (../Core/Inc/Servo.h)(0x6919BFED)
+I (../Core/Inc/Servo.h)(0x69203E38)
 I (D:\software\keil5 MDK\ARM\ARMCC\include\stdio.h)(0x588B8344)
 I (D:\software\keil5 MDK\ARM\ARMCC\include\string.h)(0x588B8344)
 I (D:\software\keil5 MDK\ARM\ARMCC\include\stdarg.h)(0x588B8344)
 I (../Core/Inc/data_processing.h)(0x6919BFED)
 I (../Core/Inc/pca9685.h)(0x6919BFED)
-I (../Core/Inc/PS2.h)(0x691F2A4A)
+I (../Core/Inc/PS2.h)(0x6920262A)
 I (D:\software\keil5 MDK\ARM\ARMCC\include\stdlib.h)(0x588B8344)
 I (../Core/Inc/beep.h)(0x6919BFED)
 I (../Core/Inc/Bus_Servo.h)(0x6919BFED)
@@ -516,6 +517,8 @@ I (D:\software\keil5 MDK\ARM\ARMCC\include\stdio.h)(0x588B8344)
 I (D:\software\keil5 MDK\ARM\ARMCC\include\string.h)(0x588B8344)
 I (D:\software\keil5 MDK\ARM\ARMCC\include\stdarg.h)(0x588B8344)
 F (..\Core\Inc\Bus_Servo.h)(0x6919BFED)()
+F (..\Core\Src\OLED.c)(0x69201874)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Src -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Core/Inc-I.\RTE\_PTZ_Control_version1-I"D:\software\keil5 MDK\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include"-I"D:\software\keil5 MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include"-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o ptz_control_version1\oled.o --omf_browse ptz_control_version1\oled.crf --depend ptz_control_version1\oled.d)
+F (..\Core\Inc\OLED.h)(0x69202603)()
 F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c)(0x6919BFED)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Src -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Core/Inc-I.\RTE\_PTZ_Control_version1-I"D:\software\keil5 MDK\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include"-I"D:\software\keil5 MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include"-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o ptz_control_version1\stm32f1xx_hal_gpio_ex.o --omf_browse ptz_control_version1\stm32f1xx_hal_gpio_ex.crf --depend ptz_control_version1\stm32f1xx_hal_gpio_ex.d)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6919BFED)
 I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6919BFED)

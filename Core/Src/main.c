@@ -155,7 +155,10 @@ int main(void)
 	HAL_TIM_PWM_Start(&htim1,TIM_CHANNEL_4);
 	
 	//PTZ_Init();
-	 PCA_Servo_Init(50.0f, 135);
+	
+	int16_t angle=135;
+	int16_t angle_base=135,angle_up=135;
+	 PCA_Servo_Init(50.0f, angle);
 //	 PS2_Init();
 	  PS2_SetInit();
 	 //蜂鸣器启动音乐
@@ -174,11 +177,17 @@ int main(void)
 		  
 			HAL_Delay(1);
 	  	char buffer[50];
-			int len = snprintf(buffer, sizeof(buffer),"%5d %5d %5d %5d\r\n",PS2_AnologData(PSS_LX),PS2_AnologData(PSS_LY),
-	      	                          PS2_AnologData(PSS_RX),PS2_AnologData(PSS_RY));
+			int len = snprintf(buffer, sizeof(buffer),"%5d %5d %5d %5d %5d\r\n",PS2_AnologData(PSS_LX),PS2_AnologData(PSS_LY),
+	      	                          PS2_AnologData(PSS_RX),PS2_AnologData(PSS_RY),angle);
     
-		HAL_UART_Transmit(&huart1, (uint8_t *)buffer, len, 100);
-		PCA_Servo(7,map(PS2_AnologData(PSS_LX),0, 255, 0, 270));
+//		HAL_UART_Transmit(&huart1, (uint8_t *)buffer, len, 100);
+			HAL_UART_Transmit_DMA(&huart1, (uint8_t *)buffer, sizeof(buffer));
+			angle_base+=map(PS2_AnologData(PSS_LX),0, 255, -30, 30);
+			angle_up+=map(PS2_AnologData(PSS_LY),0, 254, -30, 30);
+			angle_limit(&angle_base);
+			angle_limit(&angle_up);
+			PCA_Servo(7,angle_base);
+			PCA_Servo(6,angle_up);
 //		HAL_UART_Transmit_DMA(&huart1, (uint8_t *)buffer, sizeof(buffer)); // 串口打印函数，可以更换为中断发送或者DMA发送
       PS2_ClearData();      //清除数据
     HAL_Delay(100);

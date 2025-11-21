@@ -7,5 +7,6 @@ extern uint16_t Servo_up_pwm;
 void Servo_Init(void);//¶æ»ú³õÊ¼»¯
 void Servo_PWMRflash(uint16_t Servo_base_pwm,uint16_t Servo_up_pwm);
 void Servo_PWMRflash_By_Angle(float pitch,float yaw);
+void angle_limit(int16_t* angle);
 
 #endif

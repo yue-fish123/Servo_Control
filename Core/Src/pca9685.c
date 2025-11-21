@@ -94,6 +94,13 @@ void PCA_Servo_Init(float hz,uint16_t angle)
 
 void PCA_Servo(uint8_t num,uint16_t end_angle)
 {
+	if(end_angle>270){
+		end_angle=270;
+	}
+	else if(end_angle<0){
+		end_angle=0;
+	}
+	
 	uint32_t off=0;
 	
 	//off=(uint32_t)(158+end_angle*2.2);

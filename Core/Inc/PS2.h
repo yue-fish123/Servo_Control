@@ -96,7 +96,7 @@ void PS2_VibrationMode(void);    //振动设置
 void PS2_ExitConfing(void);	     //完成配置
 void PS2_SetInit(void);		     //配置初始化
 
-uint8_t map(uint16_t x, uint16_t in_min, uint16_t in_max, uint16_t out_min, uint16_t out_max);//辅助函数
+int16_t map(int32_t x, int32_t in_min, int32_t in_max, int32_t out_min, int32_t out_max);//辅助函数
 
 #endif
 

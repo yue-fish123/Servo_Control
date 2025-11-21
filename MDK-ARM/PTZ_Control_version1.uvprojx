@@ -805,6 +805,16 @@
               <FileType>5</FileType>
               <FilePath>..\Core\Inc\Bus_Servo.h</FilePath>
             </File>
+            <File>
+              <FileName>OLED.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Core\Src\OLED.c</FilePath>
+            </File>
+            <File>
+              <FileName>OLED.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\Core\Inc\OLED.h</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>

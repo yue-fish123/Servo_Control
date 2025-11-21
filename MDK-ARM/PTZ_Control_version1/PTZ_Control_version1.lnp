@@ -16,6 +16,7 @@
 "ptz_control_version1\stm32f1xx_it.o"
 "ptz_control_version1\stm32f1xx_hal_msp.o"
 "ptz_control_version1\bus_servo.o"
+"ptz_control_version1\oled.o"
 "ptz_control_version1\stm32f1xx_hal_gpio_ex.o"
 "ptz_control_version1\stm32f1xx_hal_can.o"
 "ptz_control_version1\stm32f1xx_hal.o"
